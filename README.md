@@ -36,6 +36,7 @@ Watch NVDA Coach in use and hear from independent reviewers in the blindness com
 
 - **[NVDA Coach: From First Keystroke to Confidence — A Free Tool Changing How NVDA Is Learned](https://www.youtube.com/watch?v=hpbxCDttU5A)** — *Blind Abilities* with Jeff Thompson. Independent feature on how NVDA Coach is changing the way NVDA is taught and learned.
 - **[Bits & Bytes S2 Ep10: LocalSend and the NVDA Coach](https://www.youtube.com/watch?v=SR-sR0in_Dk)** — *The Knowledge Chest* podcast covering NVDA Coach alongside other accessible tech tools.
+- **[RNIB Tech Talk #614: Activision, NVDA Coach, RNIB Shop](https://podcasts.apple.com/ke/podcast/tech-talk-614-activision-nvda-coach-rnib-shop/id1151878596?i=1000764115174)** — *RNIB Tech Talk* (28 April 2026) features NVDA Coach as step-by-step training for screen reader users, alongside accessible gaming research with Activision and RNIB Shop products.
 - **[Demonstrating the NVDA Coach Add-on for the NVDA Screen Reader](https://www.youtube.com/watch?v=-JXX_u-RQB4)** — A hands-on walk-through from the developer showing exactly how a lesson runs from start to finish.
 - **[Can't find a teacher? Use the NVDA Coach](https://www.youtube.com/shorts/0KtsuOs2Lqg)** *(short)* — *Guidance for the Blind* — quick community recommendation for self-directed learners without access to an instructor.
 
