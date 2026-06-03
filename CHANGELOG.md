@@ -1,5 +1,21 @@
 # NVDA Coach — Changelog
 
+## v1.5.5 (2026-06-03)
+
+### Compatibility
+- **NVDA 2026.1.1:** `lastTestedNVDAVersion` updated from 2026.1 to 2026.1.1, the current NVDA stable release. NVDA 2026.1.1 was a security and bug-fix patch (fixes to File Explorer Ctrl+F handling and Remote Access reconnection) with no API changes affecting add-ons — NVDA Coach required no code changes for compatibility.
+
+### Accessibility
+- **Instruction pane is now a RichEdit control:** The lesson instruction text area now uses a Win32 RichEdit control (`TE_RICH2`) instead of a plain edit control. A plain edit did not expose font and formatting information to NVDA+F, and did not support Ctrl+Up/Down paragraph navigation or reliable Page Up/Down — the practice-text lessons in Chapter 3 (Reading and Moving Through Text) depend on all three. Students can now use those commands directly on the lesson instruction text.
+
+### Lesson Fixes
+- **Chapter-completion ordering corrected (Reading and Moving Through Text):** The "you have completed the chapter" message previously appeared at the end of Lesson 7, before the chapter's actual final lesson — Lesson 8, *Check Font and Formatting*. The completion message now appears at the end of Lesson 8, and Lesson 8 is correctly flagged as the chapter's final lesson. Lesson 7 now points forward to the font and formatting lesson.
+- **Next-chapter pointers corrected (Getting Started):** The end-of-chapter message directed students to "Reading and Moving Through Text" when the actual next chapter is "Your Keyboard" (Chapter 2). This has been corrected, and the Your Keyboard chapter-end message now points to Reading and Moving Through Text.
+- **Laptop Fn-key location corrected (all languages):** The "Your Keyboard" chapter previously described laptops as having the Fn key "in the bottom-left corner, pushing Ctrl one key to the right," which is inaccurate on most hardware. Corrected across English, Spanish, Russian, Turkish, and the Portuguese scaffold: on most laptops the Fn key sits between the left Ctrl key and the Windows key (bottom row: Ctrl, Fn, Windows, Alt, space bar), while standard desktop keyboards have no Fn key in that row (Ctrl, Windows, Alt, space bar).
+- **Getting Started practice hint reworded:** A hint that referenced Say All before it had been introduced now suggests practicing the Control and Shift speech keys in any application after the lesson.
+
+---
+
 ## v1.5.4 (2026-04-29)
 
 ### Compatibility

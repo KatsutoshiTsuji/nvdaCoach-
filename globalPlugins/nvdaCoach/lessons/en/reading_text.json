@@ -421,9 +421,9 @@
         },
         {
           "type": "info",
-          "instruction": "Excellent work — you have completed the Reading and Moving Through Text chapter! You now know how to navigate by character, word, line, paragraph, and page; jump to document extremes; use Say All; select text with Shift plus arrows; verify selections with NVDA+Shift+Up Arrow or NVDA+Shift+S; and copy and paste with Windows commands. These skills work everywhere NVDA is active. Quick tip: if NVDA is reading too fast or too slowly as you practice, you can adjust speech speed using the synth settings ring — that is covered in the Customizing NVDA chapter. When you are ready, press NVDA+Shift+C to open the lesson picker and start the next chapter: Browse Mode and Web Navigation. Press Enter to finish.",
+          "instruction": "Great work — you have covered character, word, line, paragraph, and page navigation, plus jumping to document extremes, Say All, selecting text, and copy/paste. One more lesson remains in this chapter: Check Font and Formatting, which teaches NVDA+F for inspecting how text is styled. Press Enter to continue to the final lesson of this chapter.",
           "hints": [
-            "The next chapter is Browse Mode and Web Navigation. It covers how to read and interact with web pages using NVDA's navigation shortcuts.",
+            "The final lesson of this chapter covers NVDA+F — a single command that reports font name, size, and attributes like bold, italic, and underline at the cursor.",
             "If NVDA's reading speed feels too fast or slow, you can adjust it in the Customizing NVDA chapter using the synth settings ring.",
             "NVDA Coach saves your progress. When you return, your completed lessons are marked so you can pick up right where you left off."
           ]
@@ -434,6 +434,7 @@
       "id": "font_info",
       "title": "Check Font and Formatting",
       "order": 8,
+      "chapterComplete": true,
       "steps": [
         {
           "type": "info",
@@ -463,6 +464,15 @@
             "If you do not have a formatted document handy, open Notepad and type a few words, then open WordPad (Start > WordPad) and paste them — WordPad supports bold and italic formatting.",
             "Position your cursor by clicking or using the arrow keys. NVDA+F always reports formatting at the cursor position, not wherever the mouse pointer is.",
             "Try navigating word by word with Ctrl+Right Arrow, pressing NVDA+F after each word to hear how formatting changes across a sentence."
+          ]
+        },
+        {
+          "type": "info",
+          "instruction": "Excellent work — you have completed the Reading and Moving Through Text chapter! You now know how to navigate by character, word, line, paragraph, and page; jump to document extremes; use Say All; select text with Shift plus arrows; verify selections with NVDA+Shift+Up Arrow or NVDA+Shift+S; copy and paste with Windows commands; and check font and formatting details with NVDA+F. These skills work everywhere NVDA is active. Quick tip: if NVDA is reading too fast or too slowly as you practice, you can adjust speech speed using the synth settings ring — that is covered in the Customizing NVDA chapter. When you are ready, press NVDA+Shift+C to open the lesson picker and continue to the next chapter: Browse Mode and Web Navigation. Press Enter to finish.",
+          "hints": [
+            "The next chapter is Browse Mode and Web Navigation. It covers how to read and interact with web pages using NVDA's navigation shortcuts.",
+            "If NVDA's reading speed feels too fast or slow, you can adjust it in the Customizing NVDA chapter using the synth settings ring.",
+            "NVDA Coach saves your progress. When you return, your completed lessons are marked so you can pick up right where you left off."
           ]
         }
       ]

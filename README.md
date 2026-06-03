@@ -4,7 +4,7 @@
 
 NVDA Coach is a free add-on for the [NVDA screen reader](https://nvaccess.org) that teaches commands through guided, step-by-step practice sessions — from inside NVDA itself. No videos, no PDFs, no switching between windows. Press one key combination and the Coach walks you through what to do and why, one step at a time.
 
-**Current version:** 1.5.4
+**Current version:** 1.5.5
 **Author:** Tony Gebhard, Assistive Technology Instructor
 **License:** GPL v2
 
@@ -12,19 +12,22 @@ NVDA Coach is a free add-on for the [NVDA screen reader](https://nvaccess.org) t
 
 ## Download and Install
 
-**[Download NVDA Coach v1.5.4](https://github.com/tonygeb23/nvdaCoach-/releases/download/v1.5.4/nvdaCoach-1.5.4.nvda-addon)**
+**[Download NVDA Coach v1.5.5](https://github.com/tonygeb23/nvdaCoach-/releases/download/v1.5.5/nvdaCoach-1.5.5.nvda-addon)**
 
 1. Download the `.nvda-addon` file above
 2. Open the file — NVDA handles the installation automatically and asks you to confirm
 3. Press **NVDA+Shift+C** — the Coach window opens and you're ready to begin
 
-NVDA 2024.1 or later required. Tested through NVDA 2026.1. Available in the NVDA Add-on Store (Tools → Add-on Store).
+NVDA 2024.1 or later required. Tested through NVDA 2026.1.1. Available in the NVDA Add-on Store (Tools → Add-on Store).
 
 ---
 
-## What's New in v1.5.4
+## What's New in v1.5.5
 
-- **NVDA 2026.1 compatibility confirmed:** Tested and verified to work with NVDA 2026.1 (64-bit, Python 3.13). The compatibility declaration has been updated so users on NVDA 2026.1 no longer see a warning in the Add-on Store. No code changes were required.
+- **NVDA 2026.1.1 compatibility:** Tested through the current NVDA stable release (2026.1.1); the compatibility declaration is updated so users on 2026.1.1 see no Add-on Store warning.
+- **Instruction pane upgraded to a RichEdit control:** NVDA+F formatting reporting and Ctrl+Up/Down paragraph navigation now work directly on the lesson instruction text — the Chapter 3 reading lessons depend on this.
+- **Lesson flow fixes:** Corrected the chapter-completion order in *Reading and Moving Through Text* (the completion message now follows the final *Check Font and Formatting* lesson) and fixed the next-chapter pointers in *Getting Started*.
+- **Keyboard reference correction:** The laptop Fn-key location was corrected in every language — on most laptops Fn sits between the left Ctrl and the Windows key, not in the corner.
 
 See [CHANGELOG.md](CHANGELOG.md) for the full version history.
 
@@ -109,7 +112,7 @@ Get in touch at [info@tonygebhard.me](mailto:info@tonygebhard.me) to discuss cus
 cd nvdaCoach-source
 python -c "
 import zipfile, os
-output = 'nvdaCoach-1.5.4.nvda-addon'
+output = 'nvdaCoach-1.5.5.nvda-addon'
 if os.path.exists(output): os.remove(output)
 with zipfile.ZipFile(output, 'w', zipfile.ZIP_DEFLATED) as zf:
     zf.write('manifest.ini', 'manifest.ini')

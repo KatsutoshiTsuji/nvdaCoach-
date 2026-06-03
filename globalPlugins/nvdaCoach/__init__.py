@@ -413,9 +413,13 @@ class CoachWindow(wx.Frame):
 		sizer.Add(wx.StaticLine(panel), 0, wx.EXPAND | wx.LEFT | wx.RIGHT, 8)
 
 		# Main instruction text — large, word-wrapped, accessible via NVDA cursor.
+		# TE_RICH2 forces a Win32 RichEdit control. Plain EDIT does not expose
+		# font/formatting info to NVDA+F and does not support Ctrl+Up/Down
+		# paragraph navigation or reliable Page Up/Down — the practice-text
+		# lessons in Chapter 3 rely on all three working.
 		self._instructionText = wx.TextCtrl(
 			panel,
-			style=wx.TE_MULTILINE | wx.TE_READONLY | wx.TE_WORDWRAP | wx.BORDER_NONE,
+			style=wx.TE_MULTILINE | wx.TE_READONLY | wx.TE_WORDWRAP | wx.TE_RICH2 | wx.BORDER_NONE,
 		)
 		instrFont = wx.Font(
 			14, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL

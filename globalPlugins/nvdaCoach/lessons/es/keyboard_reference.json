@@ -20,9 +20,9 @@
         },
         {
           "type": "info",
-          "instruction": "La tecla Control (Ctrl) suele estar en la esquina inferior izquierda del teclado y en la esquina inferior derecha. Sin embargo, en algunas laptops la tecla Fn ocupa la esquina inferior izquierda, desplazando Ctrl una tecla hacia la derecha. Si esperas que Ctrl esté en la esquina misma y no funciona, busca la tecla etiquetada Ctrl justo a la derecha de la tecla Fn. Ambas teclas Ctrl — izquierda y derecha — funcionan de manera idéntica para casi todos los comandos. Presiona Enter para continuar.",
+          "instruction": "La tecla Control (Ctrl) suele estar en la esquina inferior izquierda del teclado y en la esquina inferior derecha. Sin embargo, en algunas laptops la tecla Fn se encuentra entre la tecla Ctrl izquierda y la tecla Windows, justo a la izquierda de la barra espaciadora. Ambas teclas Ctrl — izquierda y derecha — funcionan de manera idéntica para casi todos los comandos. Presiona Enter para continuar.",
           "hints": [
-            "Ubicación estándar: Ctrl es la tecla del extremo inferior izquierdo. En algunas laptops: Fn está en la esquina inferior izquierda y Ctrl es la segunda tecla desde la izquierda en esa fila.",
+            "Ubicación estándar: Ctrl es la tecla del extremo inferior izquierdo. En algunas laptops: Fn está entre la tecla Ctrl y la tecla Windows, justo a la izquierda de la barra espaciadora.",
             "La tecla Ctrl derecha funciona igual que la izquierda para todos los comandos de este curso. Usa la que sea más cómoda para la posición de tu mano.",
             "¿No estás seguro de cuál es Ctrl? Presiona NVDA más 1 para activar la Ayuda de entrada, presiona la tecla que crees que es Ctrl y NVDA confirmará si la reconoció como Control. Presiona NVDA más 1 de nuevo para desactivar la Ayuda de entrada."
           ]
@@ -155,7 +155,7 @@
           "instruction": "¡Has completado el capítulo Tu Teclado! Ahora sabes dónde están las teclas modificadoras en teclados estándar y de laptop, cómo funcionan las teclas de función y el comportamiento de la tecla Fn, y cómo elegir y cambiar la configuración de distribución de teclado de NVDA. Con esta base, todas las combinaciones de teclas a lo largo de NVDA Coach tendrán más sentido — sabrás exactamente dónde deben ir tus dedos. Cuando estés listo, presiona NVDA+Shift+C para abrir el selector de lecciones y explorar los otros capítulos. Presiona Enter para finalizar.",
           "hints": [
             "Este capítulo es una referencia a la que puedes volver en cualquier momento. Si un comando no funciona y no estás seguro de dónde está una tecla, regresa aquí.",
-            "Resumen de ubicaciones de teclas modificadoras: Ctrl está en la esquina inferior izquierda (o a la derecha de Fn en algunas laptops). Shift está sobre Ctrl. Alt está junto a la barra espaciadora. La tecla Windows está entre Ctrl y Alt. La tecla NVDA es Insert o Bloq Mayús.",
+            "Resumen de ubicaciones de teclas modificadoras: Ctrl está en la esquina inferior izquierda (en algunas laptops, Fn está entre Ctrl y la tecla Windows). Shift está sobre Ctrl. Alt está junto a la barra espaciadora. La tecla Windows está entre Ctrl y Alt. La tecla NVDA es Insert o Bloq Mayús.",
             "NVDA Coach guarda tu progreso automáticamente. Todas las lecciones completadas están marcadas cuando regresas."
           ]
         }

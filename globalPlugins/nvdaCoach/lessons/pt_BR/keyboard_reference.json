@@ -20,9 +20,9 @@
         },
         {
           "type": "info",
-          "instruction": "The Control key (Ctrl) is usually in the bottom-left corner of the keyboard and in the bottom-right corner. However, on some laptops the Fn key occupies the bottom-left corner, pushing Ctrl one key to the right. If you expect Ctrl to be in the very corner and it is not working, look for the key labeled Ctrl just to the right of the Fn key. Both Ctrl keys — left and right — work identically for almost all commands. Press Enter to continue.",
+          "instruction": "The Control key (Ctrl) is usually in the bottom-left corner of the keyboard and in the bottom-right corner. However, on some laptops the Fn key sits between the left Ctrl key and the Windows key, just to the left of the space bar. Both Ctrl keys — left and right — work identically for almost all commands. Press Enter to continue.",
           "hints": [
-            "Standard placement: Ctrl is the very bottom-left key. Some laptops: Fn is bottom-left and Ctrl is the second key from the left in that row.",
+            "Standard placement: Ctrl is the very bottom-left key. Some laptops: Fn sits between the left Ctrl and the Windows key, just left of the space bar.",
             "The right Ctrl key works the same as the left for all commands in this course. Use whichever is more comfortable for your hand position.",
             "Not sure which is Ctrl? Press NVDA plus 1 to turn on Input Help, press the key you think is Ctrl, and NVDA will confirm whether it recognized it as Control. Press NVDA plus 1 again to turn off Input Help."
           ]
@@ -155,7 +155,7 @@
           "instruction": "You have completed the Your Keyboard chapter! You now know where modifier keys are located on standard and laptop keyboards, how function keys and Fn key behavior work, and how to choose and change your NVDA keyboard layout setting. With this foundation, all the key combinations throughout NVDA Coach will make more sense — you will know exactly where your fingers need to go. When you are ready, press NVDA+Shift+C to open the lesson picker and explore the other chapters. Press Enter to finish.",
           "hints": [
             "This chapter is a reference you can return to at any time. If a command is not working and you are not sure where a key is, come back here.",
-            "Modifier key locations summary: Ctrl is bottom-left (or right of Fn on some laptops). Shift is above Ctrl. Alt is next to Space. Windows key is between Ctrl and Alt. NVDA key is Insert or Caps Lock.",
+            "Modifier key locations summary: Ctrl is bottom-left (with Fn between Ctrl and the Windows key on some laptops). Shift is above Ctrl. Alt is next to Space. Windows key is between Ctrl and Alt. NVDA key is Insert or Caps Lock.",
             "NVDA Coach saves your progress automatically. All completed lessons are marked when you return."
           ]
         }

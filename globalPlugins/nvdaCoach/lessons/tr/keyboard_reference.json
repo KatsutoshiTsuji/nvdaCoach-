@@ -20,9 +20,9 @@
                 },
                 {
                     "type": "info",
-                    "instruction": "Kontrol tuşu (Ctrl) genellikle klavyenin sol alt köşesinde ve sağ alt köşesinde bulunur. Ancak bazı dizüstü bilgisayarlarda Fn tuşu sol alt köşeyi kaplar ve Ctrl tuşunu bir sağa doğru iter. Ctrl'nin tam köşede olmasını bekliyorsanız ve çalışmıyorsa, Fn tuşunun hemen sağında Ctrl etiketli tuşu arayın. Her iki Ctrl tuşu da (sol ve sağ) hemen hemen tüm komutlar için aynı şekilde çalışır. Devam etmek için Enter'a basın.",
+                    "instruction": "Kontrol tuşu (Ctrl) genellikle klavyenin sol alt köşesinde ve sağ alt köşesinde bulunur. Ancak bazı dizüstü bilgisayarlarda Fn tuşu, sol Ctrl tuşu ile Windows tuşu arasında, boşluk çubuğunun hemen solunda yer alır. Her iki Ctrl tuşu da (sol ve sağ) hemen hemen tüm komutlar için aynı şekilde çalışır. Devam etmek için Enter'a basın.",
                     "hints": [
-                        "Standart yerleştirme: Ctrl en sol alttaki tuştur. Bazı dizüstü bilgisayarlar: Fn sol alttadır ve Ctrl bu satırda soldan ikinci tuştur.",
+                        "Standart yerleştirme: Ctrl en sol alttaki tuştur. Bazı dizüstü bilgisayarlar: Fn, Ctrl ile Windows tuşu arasında, boşluk çubuğunun hemen solundadır.",
                         "Sağ Ctrl tuşu, bu kurstaki tüm komutlar için soldakiyle aynı şekilde çalışır. El pozisyonunuza göre hangisi daha rahatsa onu kullanın.",
                         "Hangisinin Ctrl olduğundan emin değil misiniz? Girdi Yardımını açmak için NVDA artı 1 tuşuna basın, Ctrl olduğunu düşündüğünüz tuşa basın; NVDA bunu Kontrol olarak tanıyıp tanımadığını doğrulayacaktır. Girdi Yardımını kapatmak için NVDA artı 1'e tekrar basın."
                     ]
@@ -155,7 +155,7 @@
                     "instruction": "Klavyeniz bölümünü tamamladınız! Artık değiştirici tuşların standart ve dizüstü bilgisayar klavyelerinde nerede bulunduğunu, fonksiyon tuşlarının ve Fn tuşu davranışının nasıl çalıştığını ve NVDA klavye düzeni ayarınızı nasıl seçip değiştireceğinizi biliyorsunuz. Bu temel sayesinde NVDA Eğitmeni'ndeki tüm tuş kombinasyonları daha anlamlı hale gelecek; parmaklarınızın tam olarak nereye gitmesi gerektiğini bileceksiniz. Hazır olduğunuzda ders seçiciyi açmak ve diğer bölümleri keşfetmek için NVDA+Shift+C tuşlarına basın. Bitirmek için Enter'a basın.",
                     "hints": [
                         "Bu bölüm istediğiniz zaman dönebileceğiniz bir referanstır. Bir komut çalışmıyorsa ve tuşun nerede olduğundan emin değilseniz buraya geri gelin.",
-                        "Değiştirici tuş konumlarının özeti: Ctrl sol alttadır (veya bazı dizüstü bilgisayarlarda Fn'nin sağındadır). Shift Ctrl'nin üzerindedir. Alt, Boşluk çubuğunun yanındadır. Windows tuşu Ctrl ve Alt arasındadır. NVDA tuşu Insert veya Caps Lock'tur.",
+                        "Değiştirici tuş konumlarının özeti: Ctrl sol alttadır (bazı dizüstü bilgisayarlarda Fn, Ctrl ile Windows tuşu arasındadır). Shift Ctrl'nin üzerindedir. Alt, Boşluk çubuğunun yanındadır. Windows tuşu Ctrl ve Alt arasındadır. NVDA tuşu Insert veya Caps Lock'tur.",
                         "NVDA Eğitmeni ilerlemenizi otomatik olarak kaydeder. Geri döndüğünüzde tamamlanan tüm dersler işaretlenir."
                     ]
                 }

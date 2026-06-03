@@ -207,7 +207,7 @@
 					"type": "info",
 					"instruction": "A note on practicing these keys: pressing Control or Shift during an active lesson would interfere with the lesson itself, so reliable in-lesson practice is not possible here. Instead, build the habit naturally. The next time NVDA reads something too long or too fast, reach for Control to stop it. When you need a moment mid-reading, try Shift to pause and resume. You will discover both reflexes quickly in real use. Press Enter to finish this lesson.",
 					"hints": [
-						"The best time to practice is during Say All — press NVDA plus Down Arrow (desktop layout) or NVDA plus A (laptop layout) to start reading, then use Control to stop or Shift to pause. Say All is covered in the Reading Text chapter.",
+						"Try this in any application after this lesson: open a long email or web page, let NVDA begin reading something, then press Control to stop it cold. The reflex builds quickly with daily use.",
 						"These keys are completely safe to press at any time. They only affect NVDA's speech output and have no effect on the application you are using.",
 						"You will develop these reflexes naturally through daily use. The next time NVDA reads something too long, reach for Control — and it will become automatic."
 					]
@@ -570,7 +570,7 @@
 				},
 				{
 					"type": "info",
-					"instruction": "Excellent work — you have completed the Getting Started chapter! You now know how to identify the three categories of commands; use essential NVDA commands; understand your keyboard layout; and switch between programs with Alt+Tab. These skills work together every time you use NVDA. Practice a little every day and they will become automatic. When you are ready, press NVDA+Shift+C to open the lesson picker and start the next chapter: Reading and Moving Through Text. Press Enter to finish.",
+					"instruction": "Excellent work — you have completed the Getting Started chapter! You now know how to identify the three categories of commands; use essential NVDA commands; understand your keyboard layout; and switch between programs with Alt+Tab. These skills work together every time you use NVDA. Practice a little every day and they will become automatic. When you are ready, press NVDA+Shift+C to open the lesson picker and continue to the next chapter: Your Keyboard. Press Enter to finish.",
 					"hints": [
 						"The next chapter is Reading and Moving Through Text. It covers navigating through documents by character, word, line, paragraph, and page.",
 						"Alt+Tab summary: single press toggles to the last window. Hold Alt and keep pressing Tab to cycle through all open windows. Release Alt to land.",

@@ -20,9 +20,9 @@
         },
         {
           "type": "info",
-          "instruction": "The Control key (Ctrl) is usually in the bottom-left corner of the keyboard and in the bottom-right corner. However, on some laptops the Fn key occupies the bottom-left corner, pushing Ctrl one key to the right. If you expect Ctrl to be in the very corner and it is not working, look for the key labeled Ctrl just to the right of the Fn key. Both Ctrl keys — left and right — work identically for almost all commands. Press Enter to continue.",
+          "instruction": "The Control key (Ctrl) is in the bottom-left corner of the keyboard and in the bottom-right corner. On most laptops the Fn key sits just to the right of the left Ctrl key — between Ctrl and the Windows key — so the bottom-left row reads Ctrl, Fn, Windows, Alt, then the space bar. On standard desktop keyboards there is no Fn key in that row; the order is simply Ctrl, Windows, Alt, space bar. Both Ctrl keys — left and right — work identically for almost all commands. Press Enter to continue.",
           "hints": [
-            "Standard placement: Ctrl is the very bottom-left key. Some laptops: Fn is bottom-left and Ctrl is the second key from the left in that row.",
+            "On laptops: Ctrl is bottom-left, then Fn is the next key to the right, then the Windows key, then Alt, then the space bar.",
             "The right Ctrl key works the same as the left for all commands in this course. Use whichever is more comfortable for your hand position.",
             "Not sure which is Ctrl? Press NVDA plus 1 to turn on Input Help, press the key you think is Ctrl, and NVDA will confirm whether it recognized it as Control. Press NVDA plus 1 again to turn off Input Help."
           ]
@@ -47,9 +47,9 @@
         },
         {
           "type": "info",
-          "instruction": "The Windows key has the Windows logo printed on it and is usually between the left Ctrl key and the left Alt key. On some laptops it may be in a slightly different position, but it is always somewhere in the bottom row. The Windows key opens the Start menu when pressed alone. Windows+Up Arrow (Windows command) maximizes a window. Windows+D (Windows command) shows the desktop. Windows+L (Windows command) locks the screen. Press Enter to continue.",
+          "instruction": "The Windows key has the Windows logo printed on it and lives in the bottom row. On standard desktop keyboards it sits between the left Ctrl and the left Alt keys. On most laptops the Fn key takes the position immediately next to Ctrl, so the Windows key sits between Fn and Alt instead. Either way, it is always somewhere in the bottom row. The Windows key opens the Start menu when pressed alone. Windows+Up Arrow (Windows command) maximizes a window. Windows+D (Windows command) shows the desktop. Windows+L (Windows command) locks the screen. Press Enter to continue.",
           "hints": [
-            "The Windows key is usually between the left Ctrl and left Alt keys in the bottom row. It has the Windows logo — four colored squares arranged in a grid — printed on it.",
+            "Desktop keyboards: Windows key sits between left Ctrl and left Alt. Laptops: Fn is between Ctrl and Windows, so the order is Ctrl, Fn, Windows, Alt. The Windows key has the Windows logo — four colored squares arranged in a grid — printed on it.",
             "Windows plus Up Arrow maximizes the current window to full screen. This is useful before using object navigation — a maximized window shows all objects.",
             "Windows key alone opens the Start menu. Press Escape to close it without selecting anything."
           ]
@@ -152,10 +152,10 @@
         },
         {
           "type": "info",
-          "instruction": "You have completed the Your Keyboard chapter! You now know where modifier keys are located on standard and laptop keyboards, how function keys and Fn key behavior work, and how to choose and change your NVDA keyboard layout setting. With this foundation, all the key combinations throughout NVDA Coach will make more sense — you will know exactly where your fingers need to go. When you are ready, press NVDA+Shift+C to open the lesson picker and explore the other chapters. Press Enter to finish.",
+          "instruction": "You have completed the Your Keyboard chapter! You now know where modifier keys are located on standard and laptop keyboards, how function keys and Fn key behavior work, and how to choose and change your NVDA keyboard layout setting. With this foundation, all the key combinations throughout NVDA Coach will make more sense — you will know exactly where your fingers need to go. When you are ready, press NVDA+Shift+C to open the lesson picker and continue to the next chapter: Reading and Moving Through Text. Press Enter to finish.",
           "hints": [
             "This chapter is a reference you can return to at any time. If a command is not working and you are not sure where a key is, come back here.",
-            "Modifier key locations summary: Ctrl is bottom-left (or right of Fn on some laptops). Shift is above Ctrl. Alt is next to Space. Windows key is between Ctrl and Alt. NVDA key is Insert or Caps Lock.",
+            "Modifier key locations summary: Ctrl is bottom-left. On laptops, Fn sits between Ctrl and the Windows key, making the bottom row Ctrl, Fn, Windows, Alt, space bar. On desktop keyboards there is no Fn in that row, so it is just Ctrl, Windows, Alt, space bar. Shift is above Ctrl. Alt is next to space. NVDA key is Insert or Caps Lock.",
             "NVDA Coach saves your progress automatically. All completed lessons are marked when you return."
           ]
         }
