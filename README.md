@@ -4,7 +4,7 @@
 
 NVDA Coach is a free add-on for the [NVDA screen reader](https://nvaccess.org) that teaches commands through guided, step-by-step practice sessions — from inside NVDA itself. No videos, no PDFs, no switching between windows. Press one key combination and the Coach walks you through what to do and why, one step at a time.
 
-**Current version:** 1.5.5
+**Current version:** 1.5.7
 **Author:** Tony Gebhard, Assistive Technology Instructor
 **License:** GPL v2
 
@@ -12,7 +12,7 @@ NVDA Coach is a free add-on for the [NVDA screen reader](https://nvaccess.org) t
 
 ## Download and Install
 
-**[Download NVDA Coach v1.5.5](https://github.com/tonygeb23/nvdaCoach-/releases/download/v1.5.5/nvdaCoach-1.5.5.nvda-addon)**
+**[Download NVDA Coach v1.5.7](https://github.com/tonygeb23/nvdaCoach-/releases/download/v1.5.7/nvdaCoach-1.5.7.nvda-addon)**
 
 1. Download the `.nvda-addon` file above
 2. Open the file — NVDA handles the installation automatically and asks you to confirm
@@ -22,12 +22,12 @@ NVDA 2024.1 or later required. Tested through NVDA 2026.1.1. Available in the NV
 
 ---
 
-## What's New in v1.5.5
+## What's New in v1.5.7
 
-- **NVDA 2026.1.1 compatibility:** Tested through the current NVDA stable release (2026.1.1); the compatibility declaration is updated so users on 2026.1.1 see no Add-on Store warning.
-- **Instruction pane upgraded to a RichEdit control:** NVDA+F formatting reporting and Ctrl+Up/Down paragraph navigation now work directly on the lesson instruction text — the Chapter 3 reading lessons depend on this.
-- **Lesson flow fixes:** Corrected the chapter-completion order in *Reading and Moving Through Text* (the completion message now follows the final *Check Font and Formatting* lesson) and fixed the next-chapter pointers in *Getting Started*.
-- **Keyboard reference correction:** The laptop Fn-key location was corrected in every language — on most laptops Fn sits between the left Ctrl and the Windows key, not in the corner.
+- **Chinese (Simplified) — 简体中文:** Complete translation of all six chapters, every interface string, the documentation, and the Add-on Store listing. Set NVDA's language to Chinese (Simplified) to use it.
+- **Chinese (Traditional) — 繁體中文:** Complete Traditional Chinese localization for Taiwan, using Taiwan NVDA terminology throughout — a full translation, not a character-swap.
+- **Practice-window labels now translatable:** Every control in the practice environments (contact form, checkbox/button frame, login form, including the field names NVDA announces) is now localized, so students hear the names the lessons tell them to find.
+- **Fixes:** Corrected the wrong next-chapter hint at the end of Getting Started, and regenerated the translation template that had been stale since v1.5.1 (recovering ~95 interface strings that had been falling back to English).
 
 See [CHANGELOG.md](CHANGELOG.md) for the full version history.
 
