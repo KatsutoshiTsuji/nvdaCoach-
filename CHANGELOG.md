@@ -1,5 +1,23 @@
 # NVDA Coach — Changelog
 
+## v1.5.7 (2026-07-12)
+
+### Localization
+- **Chinese (Simplified) translation (zh_CN):** All six lesson chapters (45 lessons, 165 steps), all UI strings, all three HTML documentation files (user guide, practice page, resources), and the Add-on Store description are now available in Simplified Chinese. Users who set NVDA's language to 中文（简体） receive fully localized lesson content, documentation, and interface strings. Terminology follows NVDA's own Simplified Chinese conventions (浏览模式, 对象导航, 台式机/笔记本布局); keyboard command combos remain in Latin (NVDA+Shift+C) with descriptive key names in Chinese (上箭头, 空格键, 小键盘 5).
+- **Chinese (Traditional) translation (zh_TW):** A complete Traditional Chinese localization for Taiwan is now included — the same six chapters, UI strings, documentation, and store description. Terminology follows Taiwan NVDA conventions (螢幕閱讀器, 物件導航, 核取方塊, 自訂, 附加元件, 回饋, 檢閱游標); it is a full Traditional conversion, not a character-swap of the Simplified text.
+- **Chinese lessons adapted, not just translated:** The reading-practice passages in Chapter 3 were rewritten as natural Chinese prose that keeps every structural claim true (line counts, paragraph counts, first/last-line markers), with a note on how word-by-word navigation (Ctrl+arrows) behaves in Chinese text, which has no word spaces. The NVDA-settings lessons no longer teach first-letter jumps to the Keyboard/Speech categories — those jumps assume English category names — and use arrow-key navigation instead.
+
+### Accessibility
+- **Practice-window control labels are now translatable:** Every control label in the three practice environments — the Tab-navigation contact form, the checkboxes-and-buttons frame, and the login form (including the Username/Password field names announced by NVDA) — was hardcoded in English and could not be localized. All of them are now wrapped for translation and are fully localized in both Chinese variants, so students hear the same button and field names the lesson text tells them to find.
+
+### Bug Fixes
+- **Wrong next-chapter hint at the end of Getting Started corrected:** The final lesson's first hint said the next chapter was "Reading and Moving Through Text" when the actual next chapter is "Your Keyboard" — a leftover from the v1.5.5 pointer fix, which corrected the spoken instruction but missed the hint. Corrected in English, Spanish, Russian, and Brazilian Portuguese (Turkish and both Chinese variants were already correct).
+
+### Internal
+- **Translation template regenerated:** `locale/nvda.pot` had not been rebuilt since v1.5.1, so roughly 95 interface strings added since then (the certificate system, the profile dialog, completion and welcome-back messages, and the practice-window labels above) were missing from it and fell back to English in every language. The template now covers all 203 UI strings. Both Chinese variants translate the full set; the Spanish, Russian, Turkish, and Brazilian Portuguese catalogs have the new strings added as untranslated entries (English fallback, unchanged behavior) for their translators to complete.
+
+---
+
 ## v1.5.6 (2026-07-11)
 
 ### Bug Fixes
