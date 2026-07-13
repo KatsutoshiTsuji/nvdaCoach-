@@ -542,7 +542,7 @@
 					"type": "info",
 					"instruction": "¡Excelente trabajo — has completado el capítulo de Introducción a NVDA! Ahora sabes cómo identificar las tres categorías de comandos; usar los comandos esenciales de NVDA; entender la distribución del teclado; y cambiar entre programas con Alt+Tab. Estas habilidades funcionan juntas cada vez que usas NVDA. Practica un poco cada día y se volverán automáticas. Cuando estés listo, presiona NVDA+Mayús+C para abrir el selector de lecciones y comenzar el siguiente capítulo: Lectura y Movimiento a través del Texto. Presiona Enter para finalizar.",
 					"hints": [
-						"El siguiente capítulo es Lectura y Movimiento a través del Texto. Cubre la navegación por documentos por carácter, palabra, línea, párrafo y página.",
+						"El siguiente capítulo es Tu Teclado. Cubre las zonas del teclado, la ubicación de las teclas más importantes y las disposiciones de escritorio y portátil de NVDA.",
 						"Resumen de Alt+Tab: una sola pulsación alterna a la última ventana. Mantén Alt y sigue presionando Tab para recorrer todas las ventanas abiertas. Suelta Alt para aterrizar.",
 						"NVDA Coach guarda tu progreso automáticamente. Cuando vuelvas, tus lecciones completadas estarán marcadas para que puedas continuar justo donde lo dejaste."
 					]
