@@ -1,112 +1,109 @@
 # NVDA Coach
 
-**Interactive screen reader training built right into NVDA.**
+Interactive screen reader training inside NVDA. 45 lessons across six chapters,
+taught step by step — no videos, no PDFs, no switching windows.
 
-NVDA Coach is a free add-on for the [NVDA screen reader](https://nvaccess.org) that teaches commands through guided, step-by-step practice sessions — from inside NVDA itself. No videos, no PDFs, no switching between windows. Press one key combination and the Coach walks you through what to do and why, one step at a time.
+Free. GPL v2. By Tony Gebhard, Assistive Technology Instructor.
 
 **Current version:** 1.5.7
-**Author:** Tony Gebhard, Assistive Technology Instructor
-**License:** GPL v2
 
----
-
-## Download and Install
+## Install
 
 **[Download NVDA Coach v1.5.7](https://github.com/tonygeb23/nvdaCoach-/releases/download/v1.5.7/nvdaCoach-1.5.7.nvda-addon)**
+— or get it from the NVDA Add-on Store (Tools → Add-on Store).
 
-1. Download the `.nvda-addon` file above
-2. Open the file — NVDA handles the installation automatically and asks you to confirm
-3. Press **NVDA+Shift+C** — the Coach window opens and you're ready to begin
+Open the `.nvda-addon` file; NVDA installs it and asks you to confirm. Then
+press **NVDA+Shift+C**.
 
-NVDA 2024.1 or later required. Tested through NVDA 2026.1.1. Available in the NVDA Add-on Store (Tools → Add-on Store).
+Needs NVDA 2024.1 or later. Tested through 2026.1.1.
 
----
+## What's new in 1.5.7
 
-## What's New in v1.5.7
+- **Chinese (Simplified)** — all six chapters, every interface string, the
+  documentation and the store listing.
+- **Chinese (Traditional)** — a full translation using Taiwan NVDA terminology,
+  not a character swap.
+- **Practice-window labels are now translatable**, including the field names
+  NVDA announces, so students hear the names the lessons tell them to find.
+- Fixed the wrong next-chapter hint at the end of Getting Started, and
+  regenerated a translation template stale since 1.5.1 — recovering about 95
+  strings that had been falling back to English.
 
-- **Chinese (Simplified) — 简体中文:** Complete translation of all six chapters, every interface string, the documentation, and the Add-on Store listing. Set NVDA's language to Chinese (Simplified) to use it.
-- **Chinese (Traditional) — 繁體中文:** Complete Traditional Chinese localization for Taiwan, using Taiwan NVDA terminology throughout — a full translation, not a character-swap.
-- **Practice-window labels now translatable:** Every control in the practice environments (contact form, checkbox/button frame, login form, including the field names NVDA announces) is now localized, so students hear the names the lessons tell them to find.
-- **Fixes:** Corrected the wrong next-chapter hint at the end of Getting Started, and regenerated the translation template that had been stale since v1.5.1 (recovering ~95 interface strings that had been falling back to English).
+[Full history](CHANGELOG.md).
 
-See [CHANGELOG.md](CHANGELOG.md) for the full version history.
+## Coverage
 
----
+**1. Getting Started — 14 lessons.** The three kinds of keyboard command, then
+the essentials: the NVDA key, title bar, time, silencing speech, current focus,
+Tab, buttons and checkboxes, reading a line, Input Help, the user guide,
+keyboard layout, Alt+Tab, battery. Several use a live practice form.
 
-## See It in Action — Demonstrations & Coverage
+**2. Your Keyboard — 3 lessons.** Where the modifier keys are on desktop and
+laptop boards, how Fn and the function keys work, choosing your NVDA keyboard
+layout. Early on purpose: physical confidence before commands.
 
-Watch NVDA Coach in use and hear from independent reviewers in the blindness community:
+**3. Reading and Moving Through Text — 8 lessons.** Character, word and line
+navigation; document start and end; Say All; selection with Shift+arrows;
+paragraph and page movement; font and formatting with NVDA+F. Each lesson has a
+practice text area in the Coach window.
 
-- **[NVDA Coach: From First Keystroke to Confidence — A Free Tool Changing How NVDA Is Learned](https://www.youtube.com/watch?v=hpbxCDttU5A)** — *Blind Abilities* with Jeff Thompson. Independent feature on how NVDA Coach is changing the way NVDA is taught and learned.
-- **[Bits & Bytes S2 Ep10: LocalSend and the NVDA Coach](https://www.youtube.com/watch?v=SR-sR0in_Dk)** — *The Knowledge Chest* podcast covering NVDA Coach alongside other accessible tech tools.
-- **[RNIB Tech Talk #614: Activision, NVDA Coach, RNIB Shop](https://podcasts.apple.com/ke/podcast/tech-talk-614-activision-nvda-coach-rnib-shop/id1151878596?i=1000764115174)** — *RNIB Tech Talk* (28 April 2026) features NVDA Coach as step-by-step training for screen reader users, alongside accessible gaming research with Activision and RNIB Shop products.
-- **[Demonstrating the NVDA Coach Add-on for the NVDA Screen Reader](https://www.youtube.com/watch?v=-JXX_u-RQB4)** — A hands-on walk-through from the developer showing exactly how a lesson runs from start to finish.
-- **[Can't find a teacher? Use the NVDA Coach](https://www.youtube.com/shorts/0KtsuOs2Lqg)** *(short)* — *Guidance for the Blind* — quick community recommendation for self-directed learners without access to an instructor.
+**4. Browse Mode and the Web — 10 lessons.** Browse mode, headings and heading
+levels, links, form fields, browse/focus toggling, landmarks and lists, the
+Elements List, Find, and table cells. A practice web page opens automatically.
 
----
+**5. Object Navigation — 6 lessons.** The object pyramid, moving across a level,
+up and down levels, reading the navigator object, routing focus, and when to
+reach for it. Desktop and laptop layouts both documented.
 
-## What's Included — 45 Lessons Across Six Chapters
+**6. Customizing NVDA — 4 lessons.** Keyboard layout, speech rate and voice
+including the synth settings ring, audio output device, and audio ducking.
+Finishing this chapter triggers the Certificate of Completion.
 
-### Chapter 1: Getting Started with NVDA — 14 lessons
-An orientation to the three categories of keyboard commands (Windows, program, and screen reader), followed by the essential NVDA commands every new user needs: the NVDA modifier key, reading the title bar, checking the time, silencing speech, identifying current focus, Tab navigation, activating buttons and checkboxes, reading the current line, Input Help mode, opening the user guide, keyboard physical orientation, switching windows with Alt+Tab, and checking battery status (NVDA+Shift+B). Several lessons include a live accessible practice form with real buttons, checkboxes, and text fields.
+## How it works
 
-### Chapter 2: Your Keyboard — 3 lessons
-Where modifier keys live on standard and laptop keyboards (Ctrl, Shift, Alt, Windows key, NVDA key), how function keys and the Fn key work (Fn+arrows for Home/End/Page Up/Page Down, Fn Lock, multimedia vs F-key mode), and how to select and switch your NVDA keyboard layout setting. Placed early so students have physical keyboard confidence before command learning begins.
+One step at a time. Each step speaks an instruction, names the key, and waits
+for you to do it and press Enter.
 
-### Chapter 3: Reading and Moving Through Text — 8 lessons
-Character-by-character, word-by-word, and line-by-line navigation; jumping to document start and end; Say All (desktop: NVDA+Down Arrow, laptop: NVDA+A); text selection with Shift+arrows including NVDA's report-selection command; navigating by paragraph (Ctrl+Up/Down) and page (Page Up/Down); and checking font and formatting (NVDA+F reports font name, size, and bold/italic/underline — double-press opens a full formatting dialog). Every lesson embeds a practice text area directly in the Coach window — no switching to another application required.
-
-### Chapter 4: Browse Mode and Web Navigation — 10 lessons
-What browse mode is and how it works, heading navigation, heading level shortcuts, link navigation, form field navigation, toggling between browse mode and focus mode, landmark and list navigation, the Elements List dialog, finding text with NVDA Find, and navigating table cells with Ctrl+Alt+Arrow keys. A fully accessible practice web page opens automatically when you start any lesson in this chapter.
-
-### Chapter 5: Object Navigation — 6 lessons
-How NVDA's object pyramid works, moving across objects at the same level, climbing up and descending through levels, reading the current navigator object, routing keyboard focus to any control on screen, and when object navigation is the right tool. Uses levels/pyramid terminology throughout. Desktop and laptop layouts documented.
-
-### Chapter 6: Customizing NVDA — 4 lessons
-Changing your keyboard layout between desktop (numpad) and laptop (letter keys); adjusting speech rate, voice, and synthesizer settings including on-the-fly speed shortcuts with the synth settings ring; changing the audio output device (NVDA+Ctrl+U for headphones, speakers, or HDMI); and controlling audio ducking (NVDA+Shift+D to set whether NVDA lowers other audio while speaking). Completing this chapter triggers the Certificate of Completion.
-
----
-
-## How It Works
-
-The Coach presents one step at a time. Each step:
-- Speaks an instruction and tells you which key to press
-- Waits for you to perform the action and press Enter to continue
-- Offers **F1** to repeat the instruction, **F2** for a hint, **F3** to skip the step
-
-### Coach Window Keyboard Shortcuts
 | Key | Action |
 |-----|--------|
-| Enter / Space | Advance to next step (or next lesson after completion) |
-| F1 | Repeat current instruction |
-| F2 | Get a hint (press again to cycle through up to 3 hints per step) |
+| Enter / Space | Next step, or next lesson once complete |
+| F1 | Repeat the instruction |
+| F2 | Hint (press again for up to 3) |
 | F3 | Skip this step |
-| Ctrl+N | Move to next lesson |
-| Ctrl+B | Go back to previous lesson |
-| Ctrl+R | Restart current lesson from the beginning |
-| NVDA+Shift+C | Open the lesson picker (or return to the Coach window) |
-| Escape × 3 | Close the Coach window |
+| Ctrl+N | Next lesson |
+| Ctrl+B | Previous lesson |
+| Ctrl+R | Restart this lesson |
+| NVDA+Shift+C | Lesson picker, or back to the Coach window |
+| Escape × 3 | Close |
 
-> **Hotkey conflict?** `NVDA+Shift+C` can be remapped via NVDA menu → Preferences → Input Gestures → NVDA Coach.
+Completed lessons are marked in the picker and survive an NVDA restart.
 
-### Progress Tracking
-Completed lessons are marked in the lesson picker and saved across NVDA restarts, so you can pick up exactly where you left off.
+`NVDA+Shift+C` can be remapped: NVDA menu → Preferences → Input Gestures → NVDA
+Coach.
 
----
+## In use
 
-## For AT Instructors and TVIs
+- **[NVDA Coach: From First Keystroke to Confidence](https://www.youtube.com/watch?v=hpbxCDttU5A)** — *Blind Abilities*, Jeff Thompson
+- **[Bits & Bytes S2 Ep10](https://www.youtube.com/watch?v=SR-sR0in_Dk)** — *The Knowledge Chest*
+- **[RNIB Tech Talk #614](https://podcasts.apple.com/ke/podcast/tech-talk-614-activision-nvda-coach-rnib-shop/id1151878596?i=1000764115174)** — 28 April 2026
+- **[Demonstration walk-through](https://www.youtube.com/watch?v=-JXX_u-RQB4)** — a full lesson, start to finish
+- **[Can't find a teacher? Use the NVDA Coach](https://www.youtube.com/shorts/0KtsuOs2Lqg)** — *Guidance for the Blind*
 
-NVDA Coach was built by an AT instructor for classroom and one-on-one use. Assign a chapter before a session, use it as a structured warm-up, or give it to students for independent practice between appointments. The lesson picker shows completed lessons at a glance so you and the student can track progress together.
+## For instructors and TVIs
 
-### Custom Lessons
+Built by an AT instructor for classroom and one-to-one use. Assign a chapter
+before a session, use it as a warm-up, or set it for independent practice
+between appointments. The picker shows progress at a glance.
 
-All lessons are plain JSON files in `globalPlugins/nvdaCoach/lessons/`. Adding a new lesson set is as simple as dropping a new `.json` file in that folder. The existing files serve as templates, and the format is documented in the [user guide](doc/en/readme.html).
+**Custom lessons:** every lesson is a JSON file in
+`globalPlugins/nvdaCoach/lessons/`. Drop in a new `.json` to add a set; the
+existing files are the templates, and the format is in the
+[user guide](doc/en/readme.html).
 
-Get in touch at [info@tonygebhard.me](mailto:info@tonygebhard.me) to discuss custom lesson development for your program, organization, or student population.
+For custom lesson development, email
+[info@tonygebhard.me](mailto:info@tonygebhard.me).
 
----
-
-## Building from Source
+## Building
 
 ```bash
 cd nvdaCoach-source
@@ -127,40 +124,37 @@ with zipfile.ZipFile(output, 'w', zipfile.ZIP_DEFLATED) as zf:
 "
 ```
 
----
+## Planned
 
-## Planned for Future Versions
+Email and Office chapters · braille display module · difficulty and pace
+settings · instructor progress reporting.
 
-- Working with email and Microsoft Office chapters
-- Braille display interaction module
-- Lesson difficulty and pace settings
-- Instructor progress reporting
+Ideas and corrections: [open an issue](https://github.com/tonygeb23/nvdaCoach-/issues)
+or email [info@tonygebhard.me](mailto:info@tonygebhard.me).
 
-If you have ideas for lessons, commands that should be covered, or feedback on your experience, [open an issue](https://github.com/tonygeb23/nvdaCoach-/issues) or email [info@tonygebhard.me](mailto:info@tonygebhard.me).
+## Thanks
 
----
-
-## Acknowledgments
-
-Thank you to the testers and community members who have shaped NVDA Coach through their feedback:
-
-- **Jessica Tegner** (Be My Eyes) — invaluable early feedback and feature and lesson requests
+- **Valentin Kupriyanov** and the **[NVDA.ru community](https://nvda.ru)** — as
+  head of the Russian-speaking NVDA community, Valentin identified the broken
+  localization architecture that had been failing silently from the start,
+  proposed the internationalization overhaul that made NVDA Coach usable
+  worldwide, contributed the complete Russian translation across all six
+  chapters, and caught the missing `nvda.mo` in 1.5 that left Russian speakers
+  reading English. Far beyond translation.
+- **Jessica Tegner** (Be My Eyes) — early feedback, feature and lesson requests
+- **John Hess**, State Services for the Blind — corrected the laptop layout
+  gestures in Object Navigation
+- **Brandon Patterson** — corrected the synth settings ring keystrokes
 - **Darrell Hilliker**, CPWA, Salesforce Certified UX Designer
-- **Rui Fontes** (NVDA Portuguese translation team)
-- **John Hess**, Adaptive Technology Specialist, State Services for the Blind — detailed correction of laptop keyboard layout gestures in the Object Navigation chapter
-- **Brandon Patterson** — correction of synth settings ring keystrokes in the Customizing NVDA chapter
-- **Valentin Kupriyanov** and the **[NVDA.ru community](https://nvda.ru)** — Valentin's work goes far beyond translation. As head of the Russian-speaking NVDA user community, he identified the broken localization architecture that had been silently failing from the start, proposed the full internationalization overhaul that made NVDA Coach a globally accessible tool, contributed the complete Russian translation across all six chapters, and personally caught the missing `nvda.mo` binary in v1.5 that left Russian speakers receiving English content. His dedication to making screen reader training available in Russian — and his detailed, actionable feedback at every stage — has been extraordinary. NVDA.ru is a testament to what community-led accessibility looks like.
-- **Umut KORKMAZ** (Turkey) — Turkish translation
-- **Edson Miranda** (Brazil) — Brazilian Portuguese translation (in progress)
-- **Mateo Quintela** (Spain) — Spanish localization testing and practice text
-- **Chris, Mike, Kevin, Julie, Larry, Jim, McKayla, and Skyler** — assistive technology specialists with Pacific Northwest state agencies, hands-on feedback from April 2026 training sessions
+- **Rui Fontes** — NVDA Portuguese translation team
+- **Umut KORKMAZ** — Turkish translation
+- **Edson Miranda** — Brazilian Portuguese translation (in progress)
+- **Mateo Quintela** — Spanish localization testing and practice text
+- **Chris, Mike, Kevin, Julie, Larry, Jim, McKayla and Skyler** — AT specialists
+  with Pacific Northwest state agencies, from the April 2026 training sessions
 - **Nash** — feature and lesson requests
-- **Brian**
-- **Gene**
-- **Joseph**
-- Anonymous community members who have written in with corrections and encouragement
-
----
+- **Brian**, **Gene**, **Joseph**, and the anonymous community members who wrote
+  in with corrections and encouragement
 
 ## Contact
 
