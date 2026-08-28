@@ -34,7 +34,7 @@ msgstr "トレーニングセンターまたはプログラム（任意）："
 
 #: globalPlugins/nvdaCoach/__init__.py:105
 msgid "&Save"
-msgstr "保存 (&S)"
+msgstr "保存(&S)"
 
 #: globalPlugins/nvdaCoach/__init__.py:107
 msgid "&Cancel"
@@ -71,7 +71,7 @@ msgstr ""
 
 #: globalPlugins/nvdaCoach/__init__.py:171
 msgid "&OK"
-msgstr "&OK"
+msgstr "OK(&O)"
 
 #: globalPlugins/nvdaCoach/__init__.py:263
 msgid "Student"
@@ -1223,7 +1223,6 @@ msgstr "このレッスンを繰り返します。"
 #: globalPlugins/nvdaCoach/lessonRunner.py:318
 msgid "Go back to the previous lesson."
 msgstr "前のレッスンに戻ります。"
-
 
 msgid "Japan"
 msgstr "日本"
