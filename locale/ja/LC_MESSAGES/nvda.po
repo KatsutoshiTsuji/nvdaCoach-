@@ -1223,3 +1223,7 @@ msgstr "このレッスンを繰り返します。"
 #: globalPlugins/nvdaCoach/lessonRunner.py:318
 msgid "Go back to the previous lesson."
 msgstr "前のレッスンに戻ります。"
+
+
+msgid "Japan"
+msgstr "日本"
