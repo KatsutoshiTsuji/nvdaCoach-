@@ -18,7 +18,7 @@ msgstr "レッスン中にサウンドを再生する（正解、不正解、完
 
 #: globalPlugins/nvdaCoach/__init__.py:67
 msgid "NVDA Coach — Your Profile"
-msgstr "NVDA Coach — プロフィール"
+msgstr "NVDAコーチ — プロフィール"
 
 #: globalPlugins/nvdaCoach/__init__.py:76
 msgid "Your name (optional):"
@@ -50,7 +50,7 @@ msgstr "プロフィールを保存しました。"
 
 #: globalPlugins/nvdaCoach/__init__.py:148
 msgid "NVDA Coach — Certificate of Completion"
-msgstr "NVDA Coach — 修了証"
+msgstr "NVDAコーチ — 修了証"
 
 #: globalPlugins/nvdaCoach/__init__.py:155
 msgid ""
@@ -118,7 +118,7 @@ msgstr "支援技術指導者"
 
 #: globalPlugins/nvdaCoach/__init__.py:407
 msgid "NVDA Coach — ready"
-msgstr "NVDA Coach — 準備完了"
+msgstr "NVDAコーチ — 準備完了"
 
 #: globalPlugins/nvdaCoach/__init__.py:428
 msgid ""
@@ -240,7 +240,7 @@ msgstr "修了証を書き出す"
 msgid ""
 "You have completed every lesson in NVDA Coach. Click to save your "
 "certificate of completion to your Downloads folder."
-msgstr "NVDA Coach のすべてのレッスンを修了しました。クリックして修了証をダウンロードフォルダに保存してください。"
+msgstr "NVDAコーチ のすべてのレッスンを修了しました。クリックして修了証をダウンロードフォルダに保存してください。"
 
 #: globalPlugins/nvdaCoach/__init__.py:570
 msgid "Step {stepNum} of {stepTotal}"
@@ -256,11 +256,11 @@ msgstr ""
 
 #: globalPlugins/nvdaCoach/__init__.py:600
 msgid "NVDA Coach — Introduction"
-msgstr "NVDA Coach — はじめに"
+msgstr "NVDAコーチ — はじめに"
 
 #: globalPlugins/nvdaCoach/__init__.py:605
 msgid "Welcome, {name}, to NVDA Coach"
-msgstr "ようこそ、{name} さん、NVDA Coach へ"
+msgstr "ようこそ、{name} さん、NVDAコーチ へ"
 
 #: globalPlugins/nvdaCoach/__init__.py:606
 msgid ""
@@ -273,7 +273,7 @@ msgstr ""
 
 #: globalPlugins/nvdaCoach/__init__.py:612
 msgid "Welcome to NVDA Coach"
-msgstr "NVDA Coach へようこそ"
+msgstr "NVDAコーチ へようこそ"
 
 #: globalPlugins/nvdaCoach/__init__.py:613
 msgid ""
@@ -466,7 +466,7 @@ msgstr ""
 
 #: globalPlugins/nvdaCoach/__init__.py:760
 msgid "NVDA Coach — Chapter 4 Complete!"
-msgstr "NVDA Coach — チャプター 4 完了！"
+msgstr "NVDAコーチ — チャプター 4 完了！"
 
 #: globalPlugins/nvdaCoach/__init__.py:767
 msgid ""
@@ -510,11 +510,11 @@ msgstr ""
 
 #: globalPlugins/nvdaCoach/__init__.py:796
 msgid "Congratulations, {name} — You Have Completed NVDA Coach!"
-msgstr "おめでとうございます、{name} さん — NVDA Coach を修了しました！"
+msgstr "おめでとうございます、{name} さん — NVDAコーチ を修了しました！"
 
 #: globalPlugins/nvdaCoach/__init__.py:798
 msgid "Congratulations — You Have Completed NVDA Coach!"
-msgstr "おめでとうございます — NVDA Coach を修了しました！"
+msgstr "おめでとうございます — NVDAコーチ を修了しました！"
 
 #: globalPlugins/nvdaCoach/__init__.py:801
 msgid ""
@@ -584,15 +584,15 @@ msgstr ""
 
 #: globalPlugins/nvdaCoach/__init__.py:857
 msgid "NVDA Coach — Course Complete!"
-msgstr "NVDA Coach — コース完了！"
+msgstr "NVDAコーチ — コース完了！"
 
 #: globalPlugins/nvdaCoach/__init__.py:878
 msgid "Welcome back, {name} — NVDA Coach Complete!"
-msgstr "おかえりなさい、{name} さん — NVDA Coach 修了！"
+msgstr "おかえりなさい、{name} さん — NVDAコーチ 修了！"
 
 #: globalPlugins/nvdaCoach/__init__.py:880
 msgid "Welcome back — NVDA Coach Complete!"
-msgstr "おかえりなさい — NVDA Coach 修了！"
+msgstr "おかえりなさい — NVDAコーチ 修了！"
 
 #: globalPlugins/nvdaCoach/__init__.py:883
 msgid ""
@@ -605,7 +605,7 @@ msgstr ""
 msgid ""
 "Welcome back. You have already completed every lesson in NVDA Coach. Your "
 "certificate is available below."
-msgstr "おかえりなさい。あなたはすでに NVDA Coach のすべてのレッスンを修了しています。修了証は以下から利用できます。"
+msgstr "おかえりなさい。あなたはすでに NVDAコーチ のすべてのレッスンを修了しています。修了証は以下から利用できます。"
 
 #: globalPlugins/nvdaCoach/__init__.py:892
 msgid ""
@@ -661,12 +661,12 @@ msgstr ""
 
 #: globalPlugins/nvdaCoach/__init__.py:957
 msgid "Opening NVDA Coach help documentation in your web browser."
-msgstr "ウェブブラウザで NVDA Coach のヘルプドキュメントを開いています。"
+msgstr "ウェブブラウザで NVDAコーチ のヘルプドキュメントを開いています。"
 
 #: globalPlugins/nvdaCoach/__init__.py:960
 msgid ""
 "If you wish to view the NVDA Coach help documentation, press F4 once more."
-msgstr "NVDA Coach のヘルプドキュメントを表示したい場合は、もう一度 F4 を押してください。"
+msgstr "NVDAコーチ のヘルプドキュメントを表示したい場合は、もう一度 F4 を押してください。"
 
 #: globalPlugins/nvdaCoach/__init__.py:980
 msgid "Opening a feedback email to the developer."
@@ -686,7 +686,7 @@ msgstr "サウンドを無効にしました。"
 
 #: globalPlugins/nvdaCoach/__init__.py:1131
 msgid "Press Escape two more times to close NVDA Coach."
-msgstr "Escape をあと2回押すと、NVDA Coach を閉じます。"
+msgstr "Escape をあと2回押すと、NVDAコーチ を閉じます。"
 
 #: globalPlugins/nvdaCoach/__init__.py:1134
 msgid "Or press NVDA+Shift+C to start a lesson."
@@ -694,7 +694,7 @@ msgstr "または、NVDAキー+Shift+C を押してレッスンを開始して�
 
 #: globalPlugins/nvdaCoach/__init__.py:1138
 msgid "Press Escape one more time to close NVDA Coach."
-msgstr "Escape をもう一度押すと、NVDA Coach を閉じます。"
+msgstr "Escape をもう一度押すと、NVDAコーチ を閉じます。"
 
 #: globalPlugins/nvdaCoach/__init__.py:1277
 msgid ""
@@ -741,7 +741,7 @@ msgstr "メールアドレス"
 
 #: globalPlugins/nvdaCoach/__init__.py:1315
 msgid "Subscribe to the NVDA Coach newsletter"
-msgstr "NVDA Coach のニュースレターを購読する"
+msgstr "NVDAコーチ のニュースレターを購読する"
 
 #: globalPlugins/nvdaCoach/__init__.py:1320
 msgid "Preferred contact method"
@@ -947,7 +947,7 @@ msgstr "パスワードリセットが実行されました。リセット用の
 
 #: globalPlugins/nvdaCoach/__init__.py:1471
 msgid "NVDA Coach — Choose a Lesson"
-msgstr "NVDA Coach — レッスンを選択"
+msgstr "NVDAコーチ — レッスンを選択"
 
 #: globalPlugins/nvdaCoach/__init__.py:1490
 msgid ""
@@ -962,7 +962,7 @@ msgstr ""
 
 #: globalPlugins/nvdaCoach/__init__.py:1513
 msgid "Introduction / About NVDA Coach"
-msgstr "はじめに / NVDA Coach について"
+msgstr "はじめに / NVDAコーチ について"
 
 #: globalPlugins/nvdaCoach/__init__.py:1519
 msgid "Unknown Category"
@@ -1021,7 +1021,7 @@ msgstr "ファイル"
 
 #: globalPlugins/nvdaCoach/__init__.py:1615
 msgid "{label} is not available in this version of NVDA Coach."
-msgstr "{label} は、このバージョンの NVDA Coach では利用できません。"
+msgstr "{label} は、このバージョンの NVDAコーチ では利用できません。"
 
 #: globalPlugins/nvdaCoach/__init__.py:1620
 msgid "Opening {label}."
@@ -1042,27 +1042,27 @@ msgstr "ウェブサイトを開けませんでした。インターネット接
 
 #: globalPlugins/nvdaCoach/__init__.py:1698
 msgid "&NVDA Coach"
-msgstr "&NVDA Coach"
+msgstr "&NVDAコーチ"
 
 #: globalPlugins/nvdaCoach/__init__.py:1699
 msgid "Open NVDA Coach lesson picker"
-msgstr "NVDA Coach レッスン選択画面を開く"
+msgstr "NVDAコーチ レッスン選択画面を開く"
 
 #: globalPlugins/nvdaCoach/__init__.py:1739
 msgid ""
 "NVDA Coach. Press Enter or Next Step to continue, or Escape to stop the "
 "lesson."
-msgstr "NVDA Coach です。Enter または「次のステップ」を押して進むか、Escape でレッスンを停止します。"
+msgstr "NVDAコーチ です。Enter または「次のステップ」を押して進むか、Escape でレッスンを停止します。"
 
 #: globalPlugins/nvdaCoach/__init__.py:1746
 msgid ""
 "NVDA Coach: No lesson files found. Please check that the lessons folder is "
 "in the add-on directory."
-msgstr "NVDA Coach: レッスンファイルが見つかりません。アドオンディレクトリにレッスンフォルダがあるか確認してください。"
+msgstr "NVDAコーチ: レッスンファイルが見つかりません。アドオンディレクトリにレッスンフォルダがあるか確認してください。"
 
 #: globalPlugins/nvdaCoach/__init__.py:1761
 msgid "Show NVDA Coach window, or open the lesson picker"
-msgstr "NVDA Coach ウィンドウを表示、またはレッスン選択画面を開きます"
+msgstr "NVDAコーチ ウィンドウを表示、またはレッスン選択画面を開きます"
 
 #: globalPlugins/nvdaCoach/__init__.py:1873
 msgid "No active category. Press NVDA+Shift+C to choose a lesson."
